@@ -1,0 +1,14 @@
+C:\Users\Тимофей\Documents\Visual Studio 2015\Projects\wordbook\wordbook\bin\Release\wordbook.exe.config
+C:\Users\Тимофей\Documents\Visual Studio 2015\Projects\wordbook\wordbook\bin\Release\wordbook.exe
+C:\Users\Тимофей\Documents\Visual Studio 2015\Projects\wordbook\wordbook\bin\Release\wordbook.pdb
+C:\Users\Тимофей\Documents\Visual Studio 2015\Projects\wordbook\wordbook\obj\Release\wordbook.csprojResolveAssemblyReference.cache
+C:\Users\Тимофей\Documents\Visual Studio 2015\Projects\wordbook\wordbook\obj\Release\MainWindow.g.cs
+C:\Users\Тимофей\Documents\Visual Studio 2015\Projects\wordbook\wordbook\obj\Release\App.g.cs
+C:\Users\Тимофей\Documents\Visual Studio 2015\Projects\wordbook\wordbook\obj\Release\wordbook_MarkupCompile.cache
+C:\Users\Тимофей\Documents\Visual Studio 2015\Projects\wordbook\wordbook\obj\Release\wordbook_MarkupCompile.lref
+C:\Users\Тимофей\Documents\Visual Studio 2015\Projects\wordbook\wordbook\obj\Release\MainWindow.baml
+C:\Users\Тимофей\Documents\Visual Studio 2015\Projects\wordbook\wordbook\obj\Release\wordbook.g.resources
+C:\Users\Тимофей\Documents\Visual Studio 2015\Projects\wordbook\wordbook\obj\Release\wordbook.Properties.Resources.resources
+C:\Users\Тимофей\Documents\Visual Studio 2015\Projects\wordbook\wordbook\obj\Release\wordbook.csproj.GenerateResource.Cache
+C:\Users\Тимофей\Documents\Visual Studio 2015\Projects\wordbook\wordbook\obj\Release\wordbook.exe
+C:\Users\Тимофей\Documents\Visual Studio 2015\Projects\wordbook\wordbook\obj\Release\wordbook.pdb

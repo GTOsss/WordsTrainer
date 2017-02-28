@@ -1,0 +1,4 @@
+ValueShowWrods-4;
+ValeMustTrueAnswer-2;
+C:\Users\Тимофей\Documents\Visual Studio 2015\Projects\wordbook\wordbook\bin\Release\Import\import.txt
+import

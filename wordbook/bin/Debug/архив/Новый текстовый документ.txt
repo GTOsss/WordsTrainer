@@ -1,0 +1,115 @@
+  //void GenerateImportFile()
+        //{
+        //    List<string> str = new List<string>(File.ReadAllLines("newRusEng.txt"));
+        //    //List<string> words = new List<string>(TextFileRedactor.GenerateFileImport(str));
+
+        //   // str = TextFileRedactor.Testing(str);
+
+        //    File.Delete("newRusEng.txt");
+        //    File.WriteAllLines("newRusEng.txt", str);
+        //}
+
+        //void Translate()
+        //{
+        //    List<string> newImport = new List<string>(File.ReadAllLines("newImport.txt"));
+        //    List<string> WordsBook = new List<string>(File.ReadAllLines("WordBookAll.txt"));
+        //    List<string> import = new List<string>();
+        //    List<string> errorWords = new List<string>();
+
+        //    Console.WriteLine(TextFileRedactor.GetValueNF(WordsBook, "ap"));
+
+        //    for (int i = 0; i < newImport.Count; i++)
+        //    {
+        //        if (TextFileRedactor.GetValueNF(WordsBook, newImport[i]+" ") != "error 2")
+        //            import.Add(newImport[i] + " - " + TextFileRedactor.GetValueNF(WordsBook, newImport[i] + " "));
+        //        else
+        //            errorWords.Add(newImport[i] + " - " + TextFileRedactor.GetValueNF(WordsBook, newImport[i] + " "));
+        //    }
+
+        //    File.Delete("Import/import.txt");
+        //    File.WriteAllLines("Import/import.txt", import);
+
+        //    File.Delete("Import/Error.txt");
+        //    File.WriteAllLines("Import/Error.txt", errorWords);
+
+        //}
+
+        //void GenerateImportFile()
+        //{
+        //    Thread t = new Thread(update);
+        //    t.Start();
+
+        //    Thread tt = new Thread(updateTwo);
+        //    tt.Start();
+        //}
+
+        //void update()
+        //{
+        //    List<string> str = new List<string>(File.ReadAllLines("text.txt"));
+        //    List<string> words = new List<string>(TextFileRedactor.Testing(str));
+        //    File.Delete("newImport.txt");
+        //    File.WriteAllLines("newImport.txt", words);
+        //}
+
+        //void updateTwo()
+        //{
+        //    while (true)
+        //    {
+        //        Action action = () =>
+        //        {
+        //            if (ProgBarOfWords.Value < TextFileRedactor.percent)
+        //                ProgBarOfWords.Value = TextFileRedactor.percent;
+        //        };
+        //        Dispatcher.Invoke(action);
+        //    }
+        //}
+		
+		.......................................
+		
+		
+		 /*public static List<string> Test(List<string> FileArg) // так я создавал словарь из файла где слова записаны в формате (ang \n rus)
+        {
+            List<string> words = new List<string>();
+
+
+            for (int i = 0; i < FileArg.Count; i = i + 2)
+            {
+                words.Add(FileArg[i] + " - " + FileArg[i + 1]);
+            }
+
+            for (int i = 0; i < words.Count; i++)
+            {
+
+                int percent = (int)Math.Round(((float)i) / ((float)words.Count) * ((float)100));
+
+
+                if (i < words.Count - 1 && words[i].Length > words[i + 1].Length)
+                {
+                    for (int j = words.Count - 1; j != 0; j--)
+                    {
+                        if (words[i].Length > words[j].Length)
+                        {
+                            string str = words[j];
+                            words[j] = words[i];
+                            words[i] = str;
+                            i = 0;
+                            break;
+                        }
+                    }
+                }
+
+            }
+
+            return words;
+        }
+
+        public static List<string> Testing(List<string> argfile)
+        {
+            List<string> result = new List<string>();
+
+            Thread t = new Thread(delegate () { result = Test(argfile); });
+            t.Start();
+            t.Join();
+
+            return result;
+        }*/
